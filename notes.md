@@ -33,6 +33,14 @@
 - ![image](https://github.com/user-attachments/assets/d46595ab-5233-4661-963a-ce6895e31b9d)
 - Structure of a table
 - ![image](https://github.com/user-attachments/assets/139a62c5-4043-457e-96c7-f66bd37503a4)
+## Reading html file using Python
+- To read html file and parse the page's tree structure
+- Use the Beautiful Soup package (bs4)
+- it provides methods to access any data on the page's tree
+- https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
+- Use requests package to access a document on the Web
+can read a local HTML file, or
+together with another package (e.g., requests), can read a web page
 
 
 
