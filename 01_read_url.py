@@ -5,11 +5,12 @@ url = 'http://python.org/'
 # get the page of interest from the web
 page = requests.get(url)
 print(page)
+soup = BeautifulSoup(page.content, 'html.parser')
 links = soup.find_all('a')
 for link in links:
   print(link)
   # provide the page's content to Beautiful Soup, for it to parse
-soup = BeautifulSoup(page.content, 'html.parser')
+
 print(soup.prettify())
 #use find_all to find tags
 soup.find_all('span')[0]
