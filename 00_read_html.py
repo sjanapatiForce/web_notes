@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(contents, 'html.parser') #create a soup object with the contents
 print(soup.title.text) # we ready to read part of the soup object
-print(soup) #it is text
+#print(soup) #it is text
 print("====")
-print(soup.prettify()) #prettify makes the lines indented
+#print(soup.prettify()) #prettify makes the lines indented
 
 span_element = soup.find('span') #find the first tag type
 if span_element != None:
