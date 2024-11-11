@@ -9,12 +9,13 @@ Shown below is an example Python script that accesses the ZIP based API for curr
 import urllib.request, urllib.parse, urllib.error
 import json
 
-# Note get yourself a free account at openweathermap.org
+# Note get yourself a free account at openweathermap.org 
+Sign up at https://openweathermap.org/api
 # find your api key use it in place appid
 
 serviceurl = 'https://api.openweathermap.org/data/2.5/weather?'
-
-appid = '6747bc2d35d2e1bf033148cff05c57df'
+#get your api key at https://openweathermap.org/faq#error401
+appid = "xxx"
 while True:
     zip = input('Enter ZIP code: ')
     if len(zip) < 1: break
